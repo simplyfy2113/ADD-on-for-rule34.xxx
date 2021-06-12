@@ -63,7 +63,10 @@ window.addEventListener("resize",()=>{
 div.style.top=(object.children[0].children[0].offsetTop+object.children[0].children[0].offsetHeight-22)+"px";
 div.style.left=(object.children[0].children[0].offsetLeft+object.children[0].children[0].offsetWidth-22)+"px";
 });
-
+setInterval(()=>{
+div.style.top=(object.children[0].children[0].offsetTop+object.children[0].children[0].offsetHeight-22)+"px";
+div.style.left=(object.children[0].children[0].offsetLeft+object.children[0].children[0].offsetWidth-22)+"px";
+},999);
 
 return(div)
 }
