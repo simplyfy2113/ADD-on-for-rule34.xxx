@@ -1,0 +1,5 @@
+1.0
+save algorythm recognizing png,jpeg,jpg,gif
+
+1.1
+save algorythm now recognizing gif

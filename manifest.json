@@ -1,0 +1,25 @@
+{
+	"manifest_version":2,
+	
+	"name":"parser2",
+	"version":"1.0",
+	"description":"plug-in for rule34.xxx",
+    "icons":{"128":"64x64.png"},
+	"default_locales":["ru"],
+	
+
+	
+	"browser_action":{
+	"default_icon":"logo.png",
+	"default_popup":"index.html"
+	},
+	"content_scripts":[{
+		"matches":["*://*.rule34.xxx/*"],
+		"js":["index.js"],
+		"run_at":"document_end"
+		}
+		]
+	
+	
+	
+}
